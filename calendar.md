@@ -14,7 +14,7 @@ permalink: /calendar/
 $(document).ready(function() {
 
 	$('#calendar').fullCalendar({
-		events:'/calendar-data'
+		events:'/calendar-data/'
 	});
 
 });
