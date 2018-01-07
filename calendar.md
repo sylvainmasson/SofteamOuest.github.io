@@ -15,7 +15,7 @@ integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="  crossorigin="an
 $(document).ready(function() {
 
 	$('#calendar').fullCalendar({
-		events:'/calendar-data'
+		events:'https://softeamouest.github.io/calendar-data'
 	})
 
 });
