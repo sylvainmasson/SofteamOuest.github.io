@@ -1,6 +1,6 @@
 # Usine Logicielle 
 
-L'usine gère la construction de binaires, leur archivage et leur déploiement dans un cluster Kubernetes "maison".
+L'usine gère la construction de binaires, leur archivage et leur déploiement dans un cluster Kubernetes.
 
 ## Services Internes
 
@@ -14,7 +14,7 @@ Archivage des binaires et Images Docker [http://nexus.k8.wildwidewest.xyz/](http
 
 ### Déploiement
 
-Les services sont déployés en tant que services Docker dans un cluster Kubernetes.
+Les services sont déployés en tant que services Docker dans un cluster Kubernetes "maison".
 
 ## Services externes
 
