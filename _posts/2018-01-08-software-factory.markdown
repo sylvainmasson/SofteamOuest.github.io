@@ -1,16 +1,16 @@
 # Usine Logicielle 
 
-L'usine gère la construction de binaires, leur archivage et le déploiement de ces binaires dans un cluster Kubernetes.
+L'usine gère la construction de binaires, leur archivage et leur déploiement dans un cluster Kubernetes "maison".
 
 ## Services 
 
 ### Jenkins 
-
-URL = http://jenkins.k8.wildwidewest.xyz/
+ 
+Construction des Binaires http://jenkins.k8.wildwidewest.xyz/
 
 ### Nexus
 
-URL = http://nexus.k8.wildwidewest.xyz/
+Archivage des binaires et Images Docker http://nexus.k8.wildwidewest.xyz/
 
 ### Déploiement
 
