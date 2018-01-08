@@ -24,7 +24,7 @@ Nous communiquons entre nous via [slack](http://softeam-ouest.slack.com/).
 
 ### Trello
 
-Nous gérons nos tâches vai [trello](https://trello.com/)
+Nous gérons nos tâches via [trello](https://trello.com/)
 
 ## Application Exemple
 
