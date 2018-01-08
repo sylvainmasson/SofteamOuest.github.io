@@ -5,4 +5,8 @@ date:   2018-01-07
 categories: blog
 ---
 
-Ce blog résume l'activité de la Communauté Technique de Softeam Région Ouest.
+Le Projet MeltingPoc est un projet de Veille Technique. 
+
+Le Projet est construit par assemblage de micro services (chaque micro service étant une POC d'utilisation d'une technlogie).
+
+Le déploiement des micro services est réalisé par déploiement de conteneurs Docker dans un cluster Kubernetes.
