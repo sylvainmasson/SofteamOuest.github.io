@@ -14,7 +14,7 @@ RUN jekyll build
 
 RUN ls -la /srv/jekyll
 
-RUN mkdir -p /usr/share/nginx/html
+RUN mkdir -p /usr/share/nginx/
 
 RUN cp -r /srv/jekyll/_site /usr/share/nginx/html
 
