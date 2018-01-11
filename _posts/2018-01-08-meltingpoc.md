@@ -27,6 +27,6 @@ Les services sont accessibles via l'URL meltingpoc.k8.wildwidewest.xyz
 
 # Statuts des Builds
 
-* referentiel-personnes-mock
+* referentiel-personnes-mock-run [![Build Status](http://jenkins.wildwidewest.xyz/buildStatus/icon?job=referentiel-personnes-mock-run/master)](http://jenkins.wildwidewest.xyz/job/referentiel-personnes-mock-run/job/master/)
 
 
