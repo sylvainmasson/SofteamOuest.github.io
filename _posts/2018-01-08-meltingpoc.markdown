@@ -18,5 +18,6 @@ Les services sont accessibles via l'URL meltingpoc.k8.wildwidewest.xyz
 = Liste des services
 
 * une gateway qui redirige les requêtes vers les bons services
-* un front [vue](https://meltingpoc.k8.wildwidewest.xyz/gestion-personnes-vue/)
-* un front react
+* un front [vue](https://meltingpoc.k8.wildwidewest.xyz/gestion-personnes-vue/) de gestion de personnes
+* un front [react](https://meltingpoc.k8.wildwidewest.xyz/gestion-personnes-vue/) similaire au précédent
+* un back [kotlin-spring](api-personnes) de gestion de personnes
