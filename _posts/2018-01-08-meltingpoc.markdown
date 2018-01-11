@@ -9,4 +9,14 @@ author: Mehdi El Kouhen
 
 Le Projet MeltingPoc est un projet de Veille Technologique. Le Projet est construit par assemblage de micro services (chaque micro service étant une POC d'utilisation d'une technlogie).
 
+= Déploiement 
+
 Le déploiement des micro services est réalisé par déploiement de conteneurs Docker dans un cluster Kubernetes.
+
+Les services sont accessibles via l'URL meltingpoc.k8.wildwidewest.xyz
+
+= Liste des services
+
+* une gateway qui redirige les requêtes vers les bons services
+* un front [vue](https://meltingpoc.k8.wildwidewest.xyz/gestion-personnes-vue/)
+* un front react
