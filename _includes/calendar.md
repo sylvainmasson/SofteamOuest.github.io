@@ -21,9 +21,4 @@ $(document).ready(function() {
 
 </script>
 
-<!--
-{% for event in site.events %}
-{{event.title}} {{event.event_date}}<br/>
-{% endfor %}
--->
 <div id="calendar"></div>

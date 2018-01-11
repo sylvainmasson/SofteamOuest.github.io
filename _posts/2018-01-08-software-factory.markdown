@@ -1,3 +1,12 @@
+---
+layout: post
+title: Software Factory
+date: 2018-01-08
+description: Liens utiles de la communautée
+img: software-factory.jpg # Add image post (optional)
+author: Mehdi El Kouhen
+---
+
 # Usine Logicielle 
 
 L'usine gère la construction de binaires, leur archivage et leur déploiement dans un cluster Kubernetes.
@@ -29,3 +38,4 @@ Nous gérons nos tâches via [trello](https://trello.com/)
 ## Application Exemple
 
 TODO
+
