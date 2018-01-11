@@ -23,7 +23,7 @@ Les services sont accessibles via l'URL meltingpoc.k8.wildwidewest.xyz
 * un front [vue](https://meltingpoc.k8.wildwidewest.xyz/gestion-personnes-vue/) de gestion de personnes
 * un front [react](https://meltingpoc.k8.wildwidewest.xyz/gestion-personnes-vue/) similaire au précédent
 * un back [kotlin-spring](https://meltingpoc.k8.wildwidewest.xyz/api-personnes) de gestion de personnes
-* une api [mock JSON Server](http://meltingpoc-api-personnes-mock) de gestion de personnes
+* une api [mock JSON Server](http://meltingpoc.k8.wildwidewest.xyz/api-personnes-mock) de gestion de personnes
 
 # Statuts des Builds
 
