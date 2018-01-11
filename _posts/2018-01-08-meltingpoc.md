@@ -7,11 +7,13 @@ img: meltingpoc.png # Add image post (optional)
 author: Mehdi El Kouhen
 ---
 
-Le Projet MeltingPoc est un projet de Veille Technologique. Le Projet est construit par assemblage de micro services (chaque micro service étant une POC d'utilisation d'une technlogie).
+Le Projet MeltingPoc est un projet de Veille Technologique. 
+
+Le Projet est construit par assemblage de micro services (chaque micro service est une POC d'utilisation d'une technologie).
 
 # Déploiement 
 
-Le déploiement des micro services est réalisé par déploiement de conteneurs Docker dans un cluster Kubernetes.
+Le déploiement des micro services est réalisé par déploiement de conteneurs [Docker](https://www.docker.com/) dans un cluster [Kubernetes](https://kubernetes.io/).
 
 Les services sont accessibles via l'URL meltingpoc.k8.wildwidewest.xyz
 
@@ -20,4 +22,8 @@ Les services sont accessibles via l'URL meltingpoc.k8.wildwidewest.xyz
 * une gateway qui redirige les requêtes vers les bons services
 * un front [vue](https://meltingpoc.k8.wildwidewest.xyz/gestion-personnes-vue/) de gestion de personnes
 * un front [react](https://meltingpoc.k8.wildwidewest.xyz/gestion-personnes-vue/) similaire au précédent
-* un back [kotlin-spring](api-personnes) de gestion de personnes
+* un back [kotlin-spring](https://meltingpoc.k8.wildwidewest.xyz/api-personnes) de gestion de personnes
+
+# Statuts des Builds
+
+
