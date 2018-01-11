@@ -22,7 +22,7 @@ Les services sont accessibles via l'URL meltingpoc.k8.wildwidewest.xyz
 * api-gateway : une gateway qui redirige les requêtes vers les bons services
 * gestion-personnes : un front [vue](https://meltingpoc.k8.wildwidewest.xyz/gestion-personnes-vue/) de gestion de personnes
 * referentiel-personnes-ui : un front [react](https://meltingpoc.k8.wildwidewest.xyz/gestion-personnes-react/) similaire au précédent
-* un back [kotlin-spring](https://meltingpoc.k8.wildwidewest.xyz/api-personnes) de gestion de personnes
+* referentiel-personnes-api : un back [kotlin-spring](https://meltingpoc.k8.wildwidewest.xyz/api-personnes) de gestion de personnes
 * referentiel-personnes-mock : une api [mock JSON Server](http://meltingpoc.k8.wildwidewest.xyz/api-personnes-mock) de gestion de personnes
 * referentiel-personnes-swagger : une console [swagger](https://meltingpoc.k8.wildwidewest.xyz/api-personnes-swagger/) de l'API de gestions de personnes
 
@@ -31,7 +31,8 @@ Les services sont accessibles via l'URL meltingpoc.k8.wildwidewest.xyz
 * api-gateway [![Build Status](http://jenkins.k8.wildwidewest.xyz/buildStatus/icon?job=api-gateway/master)](http://jenkins.k8.wildwidewest.xyz/view/MELTING_POC/job/api-gateway/job/master/)
 * gestion-personnes [![Build Status](http://jenkins.k8.wildwidewest.xyz/buildStatus/icon?job=gestion-personnes/master)](http://jenkins.k8.wildwidewest.xyz/view/MELTING_POC/job/gestion-personnes/job/master/)
 * referentiel-personnes-ui [![Build Status](http://jenkins.k8.wildwidewest.xyz/buildStatus/icon?job=referentiel-personnes-ui/master)](http://jenkins.k8.wildwidewest.xyz/view/MELTING_POC/job/referentiel-personnes-ui/job/master/)
-* referentiel-personnes-mock-run [![Build Status](http://jenkins.k8.wildwidewest.xyz/buildStatus/icon?job=referentiel-personnes-mock/master)](http://jenkins.k8.wildwidewest.xyz/job/referentiel-personnes-mock/job/master/)
-* gestion-personnes [![Build Status](http://jenkins.k8.wildwidewest.xyz/buildStatus/icon?job=gestion-personnes/master)](http://jenkins.k8.wildwidewest.xyz/view/MELTING_POC/job/gestion-personnes/job/master/)
+* referentiel-personnes-api : [![Build Status](http://jenkins.wildwidewest.xyz/buildStatus/icon?job=referentiel-personnes-api/master)](http://jenkins.wildwidewest.xyz/view/MELTING_POC/job/referentiel-personnes-api/job/master/)
+* referentiel-personnes-mock [![Build Status](http://jenkins.k8.wildwidewest.xyz/buildStatus/icon?job=referentiel-personnes-mock/master)](http://jenkins.k8.wildwidewest.xyz/job/referentiel-personnes-mock/job/master/)
+* referentiel-personnes-swagger : [![Build Status](http://jenkins.k8.wildwidewest.xyz/buildStatus/icon?job=referentiel-personnes-swagger/master)](http://jenkins.k8.wildwidewest.xyz/view/MELTING_POC/job/referentiel-personnes-swagger/job/master/)
 
 
