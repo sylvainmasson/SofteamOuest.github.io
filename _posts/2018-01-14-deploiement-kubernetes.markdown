@@ -9,11 +9,13 @@ author: Mehdi El Kouhen
 
 # Dépôts GIT 
 
-## books-api-simple
+Le code présenté dans cet article est extrait des deux dépôts GIT suivants.
+
+## [books-api-simple](https://github.com/SofteamOuest/books-api-simple)
 
 API de gestion de livres.
 
-## books-api-simple-run
+## [books-api-simple-run](https://github.com/SofteamOuest/books-api-simple-run)
 
 Module de déploiement de l'API dans Kubernetes.
 
