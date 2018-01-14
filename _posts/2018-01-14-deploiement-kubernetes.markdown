@@ -19,11 +19,11 @@ Module de déploiement de l'API dans Kubernetes.
 
 # Déploiement de l'API
 
-Le déploiement est réalisé en définissant un objet Deployment.
+Le déploiement des conteneurs est réalisé en définissant un objet Deployment.
 
 Le déployment spécifie :
 
-* l'image Docker à déployer
+* l'image Docker à déployer (registry.k8.wildwidewest.xyz/repository/docker-repository/pocs/books-api-simple)
 * le nombre de réplicas (1 ci-dessous)
 * le port exposé par l'application (8080 ci-dessous)
 
@@ -51,7 +51,7 @@ spec:
 
 ## Création d'un service d'accès
 
-Kubernetes fournit la notion de service : point d'accès aux conteneurs déployés.
+Kubernetes fournit la notion de service comme point d'accès aux conteneurs déployés.
 
 
 ```
