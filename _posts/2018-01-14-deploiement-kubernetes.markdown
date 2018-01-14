@@ -32,6 +32,7 @@ Le déployment spécifie :
 * l'image Docker à déployer (registry.k8.wildwidewest.xyz/repository/docker-repository/pocs/books-api-simple)
 * le nombre de réplicas (1 ci-dessous)
 * le port exposé par l'application (8080 ci-dessous)
+* le mot de passe d'accès au registry docker stocké sous forme de secret (regsecret ci-dessous)
 
 ```
 apiVersion: apps/v1beta1
@@ -58,6 +59,7 @@ spec:
 ## Création d'un service d'accès
 
 Kubernetes fournit la notion de service comme point d'accès aux conteneurs déployés.
+
 
 
 ```
