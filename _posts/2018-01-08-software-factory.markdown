@@ -2,7 +2,7 @@
 layout: post
 title: Software Factory
 date: 2018-01-08
-description: Liens utiles de la communautée
+description: Liens utiles de la communauté
 img: software-factory.jpg # Add image post (optional)
 author: Mehdi El Kouhen
 ---
