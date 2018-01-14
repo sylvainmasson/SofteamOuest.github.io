@@ -1,11 +1,13 @@
 ---
 layout: post
 title: Déploiement d'une application dans Kubernetes
-date: 2018-01-08
+date: 2018-01-14
 description: Liens utiles de la communauté
 img: software-factory.jpg # Add image post (optional)
 author: Mehdi El Kouhen
 ---
+
+# Objectif 
 
 L'objectif de cet article est de présenter les concepts de base de déploiement d'une application Dockerisée dans un cluster Kubernetes.
 
