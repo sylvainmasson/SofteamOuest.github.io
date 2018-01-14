@@ -7,15 +7,17 @@ img: software-factory.jpg # Add image post (optional)
 author: Mehdi El Kouhen
 ---
 
-# books-api-simple
+# Dépôts GIT 
+
+## books-api-simple
 
 API de gestion de livres.
 
-# books-api-simple-run
+## books-api-simple-run
 
 Module de déploiement de l'API dans Kubernetes.
 
-## Déploiement de l'API
+# Déploiement de l'API
 
 Le déploiement est réalisé en définissant un objet Deployment.
 
