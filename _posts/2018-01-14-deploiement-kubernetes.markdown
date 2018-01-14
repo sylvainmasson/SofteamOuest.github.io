@@ -2,7 +2,7 @@
 layout: post
 title: Déploiement d'une application dans Kubernetes
 date: 2018-01-14
-description: Liens utiles de la communauté
+description: Tutorial Kubernetes
 img: software-factory.jpg # Add image post (optional)
 author: Mehdi El Kouhen
 ---
