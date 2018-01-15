@@ -9,7 +9,7 @@ author: Mehdi El Kouhen
 
 # Objectif 
 
-L'objectif de cet article est de présenter les concepts de base de déploiement d'une application Dockerisée dans un cluster Kubernetes.
+L'objectif de cet article est de présenter les concepts de base nécessaires pour le déploiement d'une application Dockerisée dans un cluster Kubernetes.
 
 # Dépôts GIT 
 
@@ -25,12 +25,14 @@ Module de déploiement de l'API dans Kubernetes.
 
 # Déploiement de l'API
 
-Le déploiement des conteneurs est réalisé en définissant un objet Deployment.
+Le déploiement du conteneur de l'API est réalisé en définissant un objet [Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/).
+
+Le résultat du déploiement est la création d'un [Pod](https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/) dans le cluster.
 
 Le déployment spécifie :
 
 * l'image Docker à déployer (registry.k8.wildwidewest.xyz/repository/docker-repository/pocs/books-api-simple)
-* le nombre de réplicas (1 ci-dessous)
+* le nombre de réplicas (1 ci-dessous))
 * le port exposé par l'application (8080 ci-dessous)
 * le mot de passe d'accès au registry docker stocké sous forme de secret (regsecret ci-dessous)
 
