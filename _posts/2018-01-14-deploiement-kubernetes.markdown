@@ -60,9 +60,9 @@ spec:
 
 ## Création d'un service d'accès
 
-Kubernetes fournit la notion de service comme point d'accès aux conteneurs déployés.
+Dans Kubernetes, les Pods étant des objets éphémères, le [Service](https://kubernetes.io/docs/concepts/services-networking/service/) est le point d'accès, interne au cluster, aux conteneurs déployés.
 
-
+Kubernetes enregistre les Services dans le DNS local au cluster, l'appel d'un service se fait donc via son nom.
 
 ```
 kind: Service
@@ -83,6 +83,8 @@ spec:
 Kubernetes permet via la notion d'Ingress de publier les services en dehors du cluster.
 
 Le fragment de code ci-dessous map les requêtes envoyées à l'URL books-api-simple.k8.wildwidewest.xyz vers le service books-api-simple.
+
+Le proxy utilisé est un proxy [traefik](https://traefik.io/).
 
 ```
 apiVersion: extensions/v1beta1
