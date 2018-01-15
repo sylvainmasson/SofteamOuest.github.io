@@ -80,7 +80,7 @@ spec:
 
 ## Publication du service 
 
-Kubernetes permet via la notion d'Ingress de publier les services en dehors du cluster.
+Kubernetes permet via la notion d'[Ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/) de publier les services en dehors du cluster.
 
 Le fragment de code ci-dessous map les requêtes envoyées à l'URL books-api-simple.k8.wildwidewest.xyz vers le service books-api-simple.
 
