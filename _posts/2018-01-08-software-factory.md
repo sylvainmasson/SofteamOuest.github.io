@@ -13,6 +13,15 @@ L'usine gère la construction de binaires, leur archivage et leur déploiement d
 
 ## Services Internes
 
+Les infos sur l'utilisation de nos services sont disponibles sur notre [gitlab](https://git.wildwidewest.xyz/melkouhen/usine).
+
+### GIT
+
+En fonction des besoins & envies, les sources sont gérés via 
+
+* Github
+* git.wildwidewest.xyz
+
 ### Jenkins 
  
 Construction des Binaires [http://jenkins.k8.wildwidewest.xyz](http://jenkins.k8.wildwidewest.xyz)
@@ -35,7 +44,4 @@ Nous communiquons entre nous via [slack](http://softeam-ouest.slack.com/).
 
 Nous gérons nos tâches via [trello](https://trello.com/)
 
-## Application Exemple
-
-TODO
 
