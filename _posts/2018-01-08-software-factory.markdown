@@ -24,11 +24,11 @@ En fonction des besoins & envies, les sources sont gérés via
 
 ### Jenkins 
  
-Construction des Binaires [http://jenkins.k8.wildwidewest.xyz](http://jenkins.k8.wildwidewest.xyz)
+Construction des Binaires [https://jenkins.k8.wildwidewest.xyz](https://jenkins.k8.wildwidewest.xyz)
 
 ### Nexus
 
-Archivage des binaires et Images Docker [http://nexus.k8.wildwidewest.xyz/](http://nexus.k8.wildwidewest.xyz/)
+Archivage des binaires et Images Docker [https://nexus.k8.wildwidewest.xyz/](https://nexus.k8.wildwidewest.xyz/)
 
 ### Déploiement
 
