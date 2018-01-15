@@ -21,7 +21,7 @@ Les services sont accessibles via l'URL meltingpoc.k8.wildwidewest.xyz
 
 | Service  |  | Build Status |
 | ------------- | ------------- |  ------------- |
-| api-gateway | une gateway qui redirige les requêtes vers les bons services | [![Build Status](http://jenkins.k8.wildwidewest.xyz/buildStatus/icon?job=api-gateway/master)](http://jenkins.k8.wildwidewest.xyz/view/MELTING_POC/job/api-gateway/job/master/)|
+| api-gateway | une gateway, basée sur [zuul](https://github.com/Netflix/zuul), qui redirige les requêtes vers les bons services | [![Build Status](http://jenkins.k8.wildwidewest.xyz/buildStatus/icon?job=api-gateway/master)](http://jenkins.k8.wildwidewest.xyz/view/MELTING_POC/job/api-gateway/job/master/)|
 | [gestion-personnes](https://meltingpoc.k8.wildwidewest.xyz/gestion-personnes-vue/) | un front [Vue.js](https://vuejs.org/) de gestion de personnes | [![Build Status](http://jenkins.k8.wildwidewest.xyz/buildStatus/icon?job=gestion-personnes/master)](http://jenkins.k8.wildwidewest.xyz/view/MELTING_POC/job/gestion-personnes/job/master/)|
 | [referentiel-personnes-ui](https://meltingpoc.k8.wildwidewest.xyz/gestion-personnes-react/) | un front [React](https://reactjs.org/) similaire au précédent | [![Build Status](http://jenkins.k8.wildwidewest.xyz/buildStatus/icon?job=referentiel-personnes-ui/master)](http://jenkins.k8.wildwidewest.xyz/view/MELTING_POC/job/referentiel-personnes-ui/job/master/) |
 | [referentiel-personnes-api](https://meltingpoc.k8.wildwidewest.xyz/api-personnes) | un back kotlin&spring de gestion de personnes  |  [![Build Status](http://jenkins.k8.wildwidewest.xyz/buildStatus/icon?job=referentiel-personnes-api/master)](http://jenkins.k8.wildwidewest.xyz/view/MELTING_POC/job/referentiel-personnes-api/job/master/)|
