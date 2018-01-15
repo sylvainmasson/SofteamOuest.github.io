@@ -7,9 +7,7 @@ img: meltingpoc.png # Add image post (optional)
 author: Mehdi El Kouhen
 ---
 
-Le Projet MeltingPoc est un projet de Veille Technologique. 
-
-Le Projet est construit par assemblage de micro services (chaque micro service est une POC d'utilisation d'une technologie).
+Le Projet MeltingPoc est un projet de Veille Technologique. C'est un assemblage de micro services (chaque micro service est une POC d'utilisation d'une technologie).
 
 # Déploiement 
 
