@@ -15,9 +15,9 @@ Le Projet est construit par assemblage de micro services (chaque micro service e
 
 Le déploiement des micro services est réalisé par déploiement de conteneurs [Docker](https://www.docker.com/) dans un cluster [Kubernetes](https://kubernetes.io/).
 
-Les services sont accessibles via l'URL meltingpoc.k8.wildwidewest.xyz
+Les services sont accessibles via l'URL [meltingpoc.k8.wildwidewest.xyz](https://meltingpoc.k8.wildwidewest.xyz)
 
-# Liste des services
+# Les Services
 
 | Service  |  | Build Status |
 | ------------- | ------------- |  ------------- |
