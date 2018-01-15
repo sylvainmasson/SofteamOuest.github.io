@@ -1,8 +1,26 @@
+---
+layout: post
+title: Software Factory
+date: 2018-01-08
+description: Liens utiles de la communauté
+img: software-factory.jpg # Add image post (optional)
+author: Mehdi El Kouhen
+---
+
 # Usine Logicielle 
 
 L'usine gère la construction de binaires, leur archivage et leur déploiement dans un cluster Kubernetes.
 
 ## Services Internes
+
+Les infos sur l'utilisation de nos services sont disponibles sur notre [gitlab](https://git.wildwidewest.xyz/melkouhen/usine).
+
+### GIT
+
+En fonction des besoins & envies, les sources sont gérés via 
+
+* Github
+* git.wildwidewest.xyz
 
 ### Jenkins 
  
@@ -26,6 +44,4 @@ Nous communiquons entre nous via [slack](http://softeam-ouest.slack.com/).
 
 Nous gérons nos tâches via [trello](https://trello.com/)
 
-## Application Exemple
 
-TODO
