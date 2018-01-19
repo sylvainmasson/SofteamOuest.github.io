@@ -61,9 +61,7 @@ Ceci permet de colocaliser le code HTML/JS/CSS d'un composant dans un fichier un
 
 ## Structure JS d'un composant
 
-La partie JS du composant est un objet JS.
-
-Cet objet contient 
+Le fragment JS du [composant](https://fr.vuejs.org/v2/guide/components.html) contient
 
 * des attributs (exemple : name -> nom du composant)
 * des méthodes (exemple : la méthode created est appelée à la création du composant)
