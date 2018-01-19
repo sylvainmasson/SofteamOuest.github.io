@@ -7,8 +7,6 @@ img: software-factory.jpg # Add image post (optional)
 author: Mehdi El Kouhen
 ---
 
-# Objectif 
-
 L'objectif de cet article est de présenter les concepts de base nécessaires pour le déploiement d'une application Dockerisée dans un cluster Kubernetes.
 
 # Dépôts GIT 

@@ -7,8 +7,6 @@ img: software-factory.jpg # Add image post (optional)
 author: Mehdi El Kouhen
 ---
 
-# Objectif 
-
 L'objectif de cet article est de présenter un retour d'expérience d'une première utilisation de [Vue.js](https://vuejs.org/).
 
 # Description de l'application
