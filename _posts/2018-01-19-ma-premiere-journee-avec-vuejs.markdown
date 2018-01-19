@@ -16,10 +16,11 @@ L'application contient deux pages :
 * Une page d'affichage de tous les événements dans un tableau.
 * Une page d'édition d'un événement donné.
 
-Pour le développement de l'application, j'ai développé 2 composants : 
+Pour le développement de l'application, j'ai développé 3 composants : 
 
 * un composant EventList d'affichage d'une liste d'événements sous forme tabulaire
 * un composant Event d'affichage d'un événement 
+* un composant EventBadge d'affichage du statut d'un événement
 
 
 # Composant
@@ -74,18 +75,29 @@ export default {
     }
   },
   created() {
-    axios.get(eventURL)
-      .then(response => {
-        this.items = response.data;
-      });
+    // appel ajax
+    axios.get(eventURL).then(response => { this.items = response.data; });
   }
 }
 ```
 
 ## Paramétrage d'un composant
 
+Les composants Vue.js sont paramétrables via des props. Le composant ci-dessous à un props : le status.
 
+```
+export default {
+  name: 'event-badge',
+  props: ['status'],
+  ...
+}
+```
 
+A l'utilisation du composant, il faut valoriser les props.
+
+```
+<event-badge :status='props.item.status'>{{ props.item.status }}</event-badge>
+```
 
 # Intégration de composants externes
 
