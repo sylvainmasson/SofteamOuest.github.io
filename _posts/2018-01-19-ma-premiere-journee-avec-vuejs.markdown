@@ -28,7 +28,6 @@ Pour le développement de l'application, j'ai développé 2 composants :
 
 Vue.js propose de structurer le code d'un composant dans un unique fichier (suffixé .vue).
 
-
 ```
 <template>
 # code HTML
@@ -59,7 +58,9 @@ Ceci permet de colocaliser le code HTML/JS/CSS d'un composant dans un fichier un
 </style>
 ```
 
-# Intégration de Bootstrap
+# Intégration de composants
+
+## Intégration de Bootstrap
 
 Pour intégrer Bootstrap dans le code, je me suis servi du projet [Bootstrap + Vue](https://bootstrap-vue.js.org/). Le projet [Bootstrap + Vue](https://bootstrap-vue.js.org/) apporte des composants Vue.js pour chaque composant Bootstrap.
 
@@ -89,7 +90,7 @@ import 'bootstrap-vue/dist/bootstrap-vue.css
 Vue.use(BootstrapVue);
 ```
 
-# Intégration d'un routeur
+## Intégration d'un routeur
 
 Le projet généré intègre le [routeur par défaut](https://github.com/vuejs/vue-router) de Vue.js.
 
@@ -120,13 +121,15 @@ L'intégration du routeur se fait au niveau du composant App.vue (composant poin
  <router-view/>
 ```
 
-# Intégration d'un client HTTP
+## Intégration d'un client HTTP
 
 En suivant le tutorial [alligator.io](https://alligator.io/vuejs/rest-api-axios/), j'ai intégré le client axios.
 
-# Les sources
+# Le Projet
 
 Les sources du projet sont disponibles sur [github](https://github.com/SofteamOuest/event-gui).
+
+J'ai utilisé [JSON Server](https://github.com/typicode/json-server) pour mettre en place rapidement une API de gestion d'événements. La base de données JSON est disponible sur [github](https://github.com/SofteamOuest/event-api-mock).
 
 ## Génération du projet
 
