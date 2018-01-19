@@ -81,7 +81,6 @@ export default {
 }
 ```
 
-
 ## Initialisation des données d'un composant
 
 Le composant EventList est responsable de télécharger tous les événements avant de les afficher.
@@ -106,7 +105,7 @@ export default {
 
 ## Paramétrage d'un composant
 
-Les composants Vue.js sont paramétrables via des props. Le composant ci-dessous à un props : le status.
+Les composants Vue.js sont paramétrables via des [props](https://fr.vuejs.org/v2/guide/components.html#Props). Le composant ci-dessous à un props : le status.
 
 ```
 export default {
