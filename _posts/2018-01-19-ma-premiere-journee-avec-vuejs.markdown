@@ -9,7 +9,7 @@ author: Mehdi El Kouhen
 
 # Objectif 
 
-L'objectif de cet article est de présenter un retour (le mien) d'expérience d'une première mise en place de [Vue.js](https://vuejs.org/).
+L'objectif de cet article est de présenter un retour d'expérience d'une première utilisation de [Vue.js](https://vuejs.org/).
 
 # Description de l'application
 
@@ -18,22 +18,16 @@ L'application contient deux pages :
 * Une page d'affichage de tous les événements dans un tableau.
 * Une page d'édition d'un événement donné.
 
-Pour le développement de l'application, j'ai développé 3 composants : 
+Pour le développement de l'application, j'ai développé 2 composants : 
 
-* un composant EventList d'affichage d'une liste d'événements
+* un composant EventList d'affichage d'une liste d'événements sous forme tabulaire
 * un composant Event d'affichage d'un événement 
 
-# Dépôt GIT
-
-Les sources du projet sont disponibles sur [github](https://github.com/SofteamOuest/event-gui).
-
-# Génération du projet
-
-Pour générer la structure du projet, j'ai utilisé [vue-cli](https://github.com/vuejs/vue-cli).
 
 # Structure d'un composant
 
-Un composant Vue.js est un fichier (suffixé .vue) structuré comme le code ci-dessous. 
+Vue.js propose de structurer le code d'un composant dans un unique fichier (suffixé .vue).
+
 
 ```
 <template>
@@ -130,11 +124,19 @@ L'intégration du routeur se fait au niveau du composant App.vue (composant poin
 
 En suivant le tutorial [alligator.io](https://alligator.io/vuejs/rest-api-axios/), j'ai intégré le client axios.
 
-# Compilation du projet 
+# Les sources
+
+Les sources du projet sont disponibles sur [github](https://github.com/SofteamOuest/event-gui).
+
+## Génération du projet
+
+Pour générer la structure du projet, j'ai utilisé [vue-cli](https://github.com/vuejs/vue-cli).
+
+## Compilation du projet 
 
 La compilation du projet est géré par [webpack](https://webpack.js.org/).
 
-## Compilation Live Reload
+### Compilation Live Reload
 
 La compilation à chaud se fait en exécutant la ligne de commande suivante : webpack publie les sources du projet (via un serveur http local) sur http://localhost:8080
 
@@ -142,7 +144,7 @@ La compilation à chaud se fait en exécutant la ligne de commande suivante : we
 npm run dev
 ```
 
-## Génération des statiques
+### Génération des fichiers statiques
 
 La génération des fichiers HTML/JS/CSS se fait en exécutant la ligne de commande suivante :
 
