@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ma première journée avec VueJS
+title: Ma première journée avec Vue.js
 date: 2018-01-19
 description: Tutorial VueJS
 img: software-factory.jpg # Add image post (optional)
