@@ -24,7 +24,9 @@ Pour le développement de l'application, j'ai développé 2 composants :
 * un composant Event d'affichage d'un événement 
 
 
-# Structure d'un composant
+# Composant
+
+## Structure d'un composant
 
 Vue.js propose de structurer le code d'un composant dans un unique fichier (suffixé .vue).
 
@@ -58,7 +60,36 @@ Ceci permet de colocaliser le code HTML/JS/CSS d'un composant dans un fichier un
 </style>
 ```
 
-# Intégration de composants
+## Initialisation des données d'un composant
+
+Le composant EventList est responsable de télécharger tous les événements avant de les afficher.
+
+* la fonction 'data' du composant contient les données du composant
+* la fonction 'created' est exécutée à la création du composant (téléchargement des événements et stockage dans data)
+
+```
+export default {
+  name: 'EventList',
+  data() {
+    return {
+      items: []
+    }
+  },
+  created() {
+    axios.get(eventURL)
+      .then(response => {
+        this.items = response.data;
+      });
+  }
+}
+```
+
+## Paramétrage d'un composant
+
+
+
+
+# Intégration de composants externes
 
 ## Intégration de Bootstrap
 
