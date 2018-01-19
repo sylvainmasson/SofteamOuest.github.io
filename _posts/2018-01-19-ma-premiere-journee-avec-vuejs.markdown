@@ -22,6 +22,7 @@ Pour le développement de l'application, j'ai développé 3 composants :
 * un composant Event d'affichage d'un événement 
 * un composant EventBadge d'affichage du statut d'un événement
 
+J'ai intégré bootstrap pour le style CSS, le routeur par défaut du Vue.js (pour le routage entre les pages) et axios pour les requêtes Ajax.
 
 # Composant
 
