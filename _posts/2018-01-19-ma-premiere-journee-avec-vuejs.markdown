@@ -59,6 +59,31 @@ Ceci permet de colocaliser le code HTML/JS/CSS d'un composant dans un fichier un
 </style>
 ```
 
+## Structure JS d'un composant
+
+La partie JS du composant est un objet JS.
+
+Cet objet contient 
+
+* des attributs (exemple : name -> nom du composant)
+* des méthodes (exemple : la méthode created est appelée à la création du composant)
+
+```
+export default {
+  name: 'EventList',
+  data() {
+    return {
+      items: []
+    }
+  },
+  created() {
+    // appel ajax
+    axios.get(eventURL).then(response => { this.items = response.data; });
+  }
+}
+```
+
+
 ## Initialisation des données d'un composant
 
 Le composant EventList est responsable de télécharger tous les événements avant de les afficher.
